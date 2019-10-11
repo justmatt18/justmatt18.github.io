@@ -4,8 +4,8 @@ body {
   font-family: 'Roboto Mono', monospace;
 }
 
-.pt-20 {
-  padding-top: 20px;
+.pt-10 {
+  padding-top: 10px;
 }
 
 /* colors */
@@ -48,7 +48,7 @@ nav ul > li > a:hover {
 
 /* section aobut */
 .intro-content {
-  padding-top: 10vh;
+  padding-top: 8vh;
 }
 
 #about {
