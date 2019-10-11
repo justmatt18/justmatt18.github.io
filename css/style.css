@@ -8,6 +8,10 @@ body {
   padding-top: 10px;
 }
 
+.pb-5 {
+  padding-bottom: 5px;;
+}
+
 /* colors */
 .my-main {
   color: #3AAFA9;
@@ -33,6 +37,10 @@ body {
   background-color: #3AAFA9;
 }
 
+.waves-black {
+  color: #17252A;
+}
+
 /* background-colors */
 
 .bg-b {
@@ -47,8 +55,34 @@ nav ul > li > a:hover {
 
 
 /* section aobut */
+
+.social-links {
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fa-github, .fa-envelope-square, .fa-instagram {
+  color: #333333;
+  padding: 10px 15px;
+}
+
+.fa-envelope-square:hover {
+  color: #D44638;
+}
+
+.fa-github:hover { 
+  color: #ffffff;
+}
+
+.fa-instagram:hover {
+  color: #DD2A7B;
+}
+
+
 .intro-content {
-  padding-top: 8vh;
+  padding-top: 5vh;
 }
 
 #about {
