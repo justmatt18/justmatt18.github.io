@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+/* colors */
+.my-main {
+  color: #3AAFA9;
+}
+
+.b-color {
+  color: #17252A;
+}
+
+.light-green {
+  color: #2B7A78;
+}
+
+.light-white {
+  color: #DEF2F1;
+}
+
+.my-white {
+  color: #FEFFFF;
+}
+
+.nav-color {
+  background-color: #3AAFA9;
+}
+
+/* background-colors */
+
+.bg-b {
+  background-color: #17252A;
+}
+
+/* section nav */
+
+nav ul > li > a:hover {
+  color: #2B7A78;
+}
+
+
+/* section aobut */
+.intro-content {
+  padding-top: 10vh;
+}
+
+#about {
+  /* background-color: #17252A; */
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.greeting {
+  font-size: 32px;
+}
+
+p.name {
+  font-size: 35px;
+  line-height: 1rem;
+}
+
+p.title {
+  font-size: 20px;
+  line-height: 0;
+}
+
+.abt-content {
+  font-size: 22px;
+  line-height: 2.5rem;  
+}
+
+
+.avatar {
+  border-radius: 50%;
+  max-width: 240px;
+  max-height: 240px;
+  line-height: 0;
+}
+
+.about-me {
+  line-height: 1.6rem;
+}
+
+/* section techstack */
+
+
