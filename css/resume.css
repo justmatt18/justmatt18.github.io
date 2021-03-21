@@ -1,0 +1,33 @@
+/* resume  */
+#resume {
+  line-height: 1.6rem;
+  min-height: 90vh;
+  color: #17252a;
+}
+
+.resume-title {
+  font-family: "Cedarville Cursive", cursive;
+}
+
+.company-title,
+.tech-title {
+  font-size: 20px;
+  color: #17252a;
+  line-height: 1.6rem;
+  margin-bottom: -5px;
+}
+
+.tech-title {
+  margin-bottom: 3rem;
+}
+
+.company-task {
+  font-size: 15px;
+  line-height: 1.6rem;
+  color: #17252a;
+  font-family: "Open Sans", sans-serif;
+}
+
+ul.task li {
+  list-style-type: square !important;
+}

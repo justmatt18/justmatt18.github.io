@@ -1,102 +1,258 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marco Mat</title>
     <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
-
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
     <!--Import materialize.css-->
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
 
     <!-- Custon CSS -->
-    <link rel="stylesheet" href="./css/style.css">
-    
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/resume.css" />
+
+    <!-- custom js -->
+    <script src="js/index.js"></script>
+
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="https://kit.fontawesome.com/925e23137f.js" crossorigin="anonymous"></script>
-</head>
+    <script
+      src="https://kit.fontawesome.com/925e23137f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <!-- Navbar -->
     <div class="navbar-fixed">
-        <nav class="bg-b">
-            <div class="container">
-                <div class="nav-wrapper">
-                    <a href="#" class="brand-logo">
-                        Marco Mat
-                        <a href="#" data-target="mobile-nav" class="sidenav-trigger">
-                            <i class="material-icons">menu</i>
-                        </a>
-                        <ul class="right hide-on-med-and-down">
-                            <li><a href="#about">Home</a></li>
-                            <li><a href="#resume">Resume</a></li>
-                            <li><a href="#projects">Projects</a></li>
-                            
-                        </ul>
-                    </a>
-                </div>
-            </div>
-        </nav>
+      <nav class="bg-b">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">
+              Marco Mat
+              <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+              </a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="#about">Home</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#projects">Projects</a></li>
+              </ul>
+            </a>
+          </div>
+        </div>
+      </nav>
     </div>
-    
+
+    <!-- mobile nav-bar -->
     <ul class="sidenav" id="mobile-nav">
-        <li><a href="#about">Home</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#projects">Projects</a></li>
-        
+      <li><a href="#about">Home</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#projects">Projects</a></li>
     </ul>
     <!-- End of Navbar -->
 
-    <!-- Landing Page -->
+    <!-- About Page -->
     <div class="nav-color section section-about scrollspy" id="about">
-        <div class="container">
-            <div class="intro-content center-align">
-                <img class="z-depth-4 avatar responsive-img" src="./img/avatar.jpeg" alt="marco-avatar">
-                <p class="my-white name">Marco Matildo</p>
-                <p class="title b-color">Software Developer</p>
-            </div>
-            <div class="pt-5 social-links pb-5">
-                <a href="mailto: marcomatildo@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
-                <a href="https://github.com/justmatt18" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.instagram.com/thekingc0ng/" target="_blank"><i class="fab fa-instagram"> </i></a>
-            </div>
-            <div class="pt-10 center-align about-me">
-                <p class="abt-content"><span class="greeting">Hello, </span> my name is Marco Matildo and I'm a <span class="b-color">Junior Software Developer</span> living in Davao City, Philippines. I'v just started the #100DaysOfCode to learn more about Vue JS, Laravel and Spring Boot. It will help myself be devoted to give time everyday about learning these technologies and also to easily keep track my progress day by day.</p>
-            </div>
+      <div class="container">
+        <div class="intro-content center-align">
+          <img
+            class="z-depth-4 avatar responsive-img"
+            src="./img/avatar.jpeg"
+            alt="marco-avatar"
+          />
+          <p class="my-white name">Marco Matildo</p>
+          <p class="title b-color">Software Developer</p>
         </div>
+        <div class="pt-5 social-links pb-5">
+          <a href="mailto: marcomatildo@gmail.com" target="_blank"
+            ><i class="fas fa-envelope-square border-hover socmed-icons"></i
+          ></a>
+          <a href="https://github.com/justmatt18" target="_blank"
+            ><i class="fab fa-github border-hover socmed-icons"></i
+          ></a>
+          <a href="https://www.instagram.com/dev_marcomat/" target="_blank"
+            ><i class="fab fa-instagram border-hover socmed-icons"> </i
+          ></a>
+          <a href="https://twitter.com/dev_marcomat" target="_blank"
+            ><i class="fab fa-twitter-square border-hover socmed-icons"> </i
+          ></a>
+          <a href="https://twitter.com/dev_marcomat" target="_blank"
+            ><i
+              class="fab fa-linkedin border-hover socmed-icons"
+              aria-hidden="true"
+            ></i>
+          </a>
+        </div>
+        <div class="pt-10 center-align about-me">
+          <p class="abt-content">
+            <span class="greeting">Hello, </span> my name is Marco Matildo and
+            I'm a <span class="b-color">Junior Software Developer</span> living
+            in Davao City, Philippines. I'v just started the #100DaysOfCode to
+            learn more about Vue JS, Laravel and Spring Boot. It will help
+            myself be devoted to give time everyday about learning these
+            technologies and also to easily keep track my progress day by day.
+          </p>
+        </div>
+      </div>
     </div>
-
-
-    <!-- Tech Stack-->
-    <!-- <div class="section section-tech scrollspy" id="tech">
-        <div class="container center-align">
-            <h4><span class="my-main">Tech</span> Stack</h4>
-
-        </div>
-    </div> -->
-
-    <!-- Projects -->
-    <div class="section section-projects scrollspy" id="projects">
-        <div class="container center-align">
-
-        </div>
-    </div>
-
 
     <!-- Resume -->
     <div class="section section-resume scrollspy" id="resume">
-        <div class="container center-align">
-            
+      <div class="container center-align">
+        <p class="name">My <span class="my-main">Resume</span></p>
+      </div>
+      <div class="container">
+        <div class="row pb-5">
+          <div class="col s12 m6">
+            <h4 class="pb-5 resume-title">
+              <span class="text-grey text-darken-4">Experiences</span>
+            </h4>
+            <div class="row">
+              <div class="col s12">
+                <p class="company-title">
+                  Ideahub Philippines (Web Developer Intern)
+                </p>
+                <small
+                  ><i class="fa fa-clock-o" aria-hidden="true"></i>
+                  11/18-03/19 (4 mons.)
+                </small>
+                <ul class="task">
+                  <li class="company-task">
+                    Using WordPress, I developed and deployed a website for
+                    Davao Analytical Lab. Inc.
+                  </li>
+                  <li class="company-task">
+                    Manually tested some of their current projects and kept
+                    track of all test results in a spreadsheet.
+                  </li>
+                  <li class="company-task">
+                    Redesigned an old website with WordPress and manually tested
+                    it.
+                  </li>
+                </ul>
+              </div>
+              <div class="col s12">
+                <p class="company-title">Alemhar (Web Developer)</p>
+                <small
+                  ><i class="fa fa-clock-o" aria-hidden="true"></i>
+                  08/19-12/19 (5 mons.)
+                </small>
+                <ul class="task">
+                  <li class="company-task">
+                    Multiple WordPress sites were maintained and updated;
+                  </li>
+                  <li class="company-task">
+                    A psychological test has been added to assess customer needs
+                    using jQuery;
+                  </li>
+                  <li class="company-task">
+                    I started a yellow page project for posting local businesses
+                    products and services.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m5 offset-m1">
+            <h4 class="pb-5 resume-title">
+              Knowledge /
+              <span class="red-text text-darken-4">Skills</span>
+            </h4>
+            <div class="row programming pb-5">
+              <div class="col s12">
+                <p class="tech-title pb-5">Programming Languages</p>
+              </div>
+              <div class="col s12 m4 center-align">
+                <img
+                  class="tech-icons responsive-img"
+                  src="./icons/cib-javascript.svg"
+                  alt="javascript-programming"
+                />
+                <p>Javascript</p>
+              </div>
+              <div class="col s12 m4 center-align">
+                <img
+                  class="tech-icons responsive-img"
+                  src="./icons/cib-java.svg"
+                  alt="java-programming"
+                />
+                <p>Java</p>
+              </div>
+              <div class="col s12 m4 center-align">
+                <img
+                  class="tech-icons responsive-img"
+                  src="./icons/cib-php.svg"
+                  alt="php-programming"
+                />
+                <p>PHP</p>
+              </div>
+            </div>
+            <!-- end of programming section -->
+            <div class="row programming pb-5">
+              <div class="col s12">
+                <p class="tech-title pb-5">
+                  Front-end</span>
+                </p>
+              </div>
+              <div class="col s12 m4 center-align">
+                <img
+                  class="tech-icons responsive-img"
+                  src="./icons/cib-html5.svg"
+                  alt="html front-end"
+                />
+                <p>HTML</p>
+              </div>
+              <div class="col s12 m4 center-align">
+                <img
+                  class="tech-icons responsive-img"
+                  src="./icons/cib-css3.svg"
+                  alt="css-styling"
+                />
+                <p>CSS3</p>
+              </div>
+              <div class="col s12 m4 center-align">
+                <img
+                  class="tech-icons responsive-img"
+                  src="./icons/cib-javascript.svg"
+                  alt="javascript-programming"
+                />
+                <p>Javascript</p>
+              </div>
+            </div>
+            <!-- end of front-end  -->
+          </div>
         </div>
+      </div>
     </div>
 
-
-
-</body>
+    <!-- Projects -->
+    <div class="section section-projects scrollspy" id="projects">
+      <div class="container center-align"></div>
+    </div>
+  </body>
 </html>
