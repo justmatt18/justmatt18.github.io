@@ -77,7 +77,7 @@ border-hover:hover::after {
 
 #about {
   /* background-color: #17252A; */
-  min-height: 10 0vh;
+  min-height: 100vh;
   color: #ffffff;
 }
 
@@ -87,7 +87,7 @@ border-hover:hover::after {
 
 p.name {
   font-size: 35px;
-  line-height: 1rem;
+  line-height: 3rem;
 }
 
 p.title {
@@ -156,9 +156,4 @@ p.title {
 
 .waves-black {
   color: #17252a;
-}
-
-.tech-icons {
-  min-height: 4rem;
-  color: red;
 }

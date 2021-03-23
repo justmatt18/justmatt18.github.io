@@ -1,0 +1,20 @@
+.section-projects {
+  height: 100vh;
+}
+
+.card-title {
+  font-size: 18px !important;
+}
+
+.card-action:hover {
+  background-color: rgba(23, 37, 42, 0.6);
+}
+
+.project-title {
+  color: #17252a;
+}
+
+ul.tech li {
+  list-style-type: square !important;
+  padding-left: 10px;
+}

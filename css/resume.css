@@ -31,3 +31,8 @@
 ul.task li {
   list-style-type: square !important;
 }
+
+.tech-icons {
+  max-height: 3rem;
+  color: red;
+}
