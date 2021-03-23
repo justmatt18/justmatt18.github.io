@@ -26,20 +26,17 @@
 
     <!--Import materialize.css-->
     <!-- Compiled and minified CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
+    <link rel="stylesheet" href="css/materialize.min.css" />
 
     <!-- Custon CSS -->
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/resume.css" />
-
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/resume.css" />
+    <link rel="stylesheet" href="css/projects.css" />
     <!-- custom js -->
     <script src="js/index.js"></script>
 
     <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
     <script
       src="https://kit.fontawesome.com/925e23137f.js"
       crossorigin="anonymous"
@@ -52,7 +49,7 @@
       <nav class="bg-b">
         <div class="container">
           <div class="nav-wrapper">
-            <a href="#" class="brand-logo">
+            <a href="/" class="brand-logo">
               Marco Mat
               <a href="#" data-target="mobile-nav" class="sidenav-trigger">
                 <i class="material-icons">menu</i>
@@ -82,7 +79,7 @@
         <div class="intro-content center-align">
           <img
             class="z-depth-4 avatar responsive-img"
-            src="./img/avatar.jpeg"
+            src="img/avatar.jpeg"
             alt="marco-avatar"
           />
           <p class="my-white name">Marco Matildo</p>
@@ -110,12 +107,16 @@
         </div>
         <div class="pt-10 center-align about-me">
           <p class="abt-content">
-            <span class="greeting">Hello, </span> my name is Marco Matildo and
-            I'm a <span class="b-color">Junior Software Developer</span> living
-            in Davao City, Philippines. I'v just started the #100DaysOfCode to
-            learn more about Vue JS, Laravel and Spring Boot. It will help
-            myself be devoted to give time everyday about learning these
-            technologies and also to easily keep track my progress day by day.
+            <span class="greeting">Hello! </span>My name is Marco Mat and I'm a
+            <span class="b-color">Software Developer</span> living in Makati
+            City, Philippines. I have diverse skillset ranging from
+            <span class="b-color">HTML, CSS, Javascript</span> (React & Vue) all
+            the way to <span class="b-color">Java</span> and a little in
+            <span class="red-text">PHP and Python. </span>
+          </p>
+          <p class="abt-content">
+            If you are a business seeking a web presence or an employer looking
+            to hire, you can get in touch with me through my social sites.
           </p>
         </div>
       </div>
@@ -187,26 +188,26 @@
               <div class="col s12">
                 <p class="tech-title pb-5">Programming Languages</p>
               </div>
-              <div class="col s12 m4 center-align">
+              <div class="col s4 center-align">
                 <img
                   class="tech-icons responsive-img"
-                  src="./icons/cib-javascript.svg"
+                  src="./icons/js-icon.png"
                   alt="javascript-programming"
                 />
                 <p>Javascript</p>
               </div>
-              <div class="col s12 m4 center-align">
+              <div class="col s4 center-align">
                 <img
                   class="tech-icons responsive-img"
-                  src="./icons/cib-java.svg"
+                  src="./icons/java-icon.png"
                   alt="java-programming"
                 />
                 <p>Java</p>
               </div>
-              <div class="col s12 m4 center-align">
+              <div class="col s4 center-align">
                 <img
                   class="tech-icons responsive-img"
-                  src="./icons/cib-php.svg"
+                  src="./icons/php-icon.png"
                   alt="php-programming"
                 />
                 <p>PHP</p>
@@ -216,29 +217,30 @@
             <div class="row programming pb-5">
               <div class="col s12">
                 <p class="tech-title pb-5">
-                  Front-end</span>
+                  Front-<span class="my-main">End</span>
                 </p>
               </div>
-              <div class="col s12 m4 center-align">
+              <div class="col s4 center-align">
                 <img
                   class="tech-icons responsive-img"
-                  src="./icons/cib-html5.svg"
+                  src="./icons/html5-icon.png"
+                  height="3rem"
                   alt="html front-end"
                 />
                 <p>HTML</p>
               </div>
-              <div class="col s12 m4 center-align">
+              <div class="col s4 center-align">
                 <img
                   class="tech-icons responsive-img"
-                  src="./icons/cib-css3.svg"
+                  src="./icons/css3-icon.png"
                   alt="css-styling"
                 />
                 <p>CSS3</p>
               </div>
-              <div class="col s12 m4 center-align">
+              <div class="col s4 center-align">
                 <img
                   class="tech-icons responsive-img"
-                  src="./icons/cib-javascript.svg"
+                  src="./icons/js-icon.png"
                   alt="javascript-programming"
                 />
                 <p>Javascript</p>
@@ -252,7 +254,15 @@
 
     <!-- Projects -->
     <div class="section section-projects scrollspy" id="projects">
-      <div class="container center-align"></div>
+      <div class="container center-align">
+        <p class="name"><span class="my-main">Personal</span> Projects</p>
+      </div>
+      <div class="container">
+        <div class="row pb-5" id="core-projects"></div>
+        <div class="row pb-5" id="js-games"></div>
+      </div>
     </div>
+
+    <script src="js/materialize.min.js"></script>
   </body>
 </html>
