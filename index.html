@@ -55,7 +55,7 @@
                 <i class="material-icons">menu</i>
               </a>
               <ul class="right hide-on-med-and-down">
-                <li><a href="#about">Home</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#resume">Resume</a></li>
                 <li><a href="#projects">Projects</a></li>
               </ul>
@@ -67,7 +67,7 @@
 
     <!-- mobile nav-bar -->
     <ul class="sidenav" id="mobile-nav">
-      <li><a href="#about">Home</a></li>
+      <li><a href="#about">About</a></li>
       <li><a href="#resume">Resume</a></li>
       <li><a href="#projects">Projects</a></li>
     </ul>
@@ -125,7 +125,15 @@
     <!-- Resume -->
     <div class="section section-resume scrollspy" id="resume">
       <div class="container center-align">
-        <p class="name">My <span class="my-main">Resume</span></p>
+        <p class="name">
+          My <span class="my-main">Resume</span>
+          <a
+            href="resume.pdf"
+            class="bg-b waves-effect waves-light center-align btn-small"
+            target="_blank"
+            ><i class="small material-icons center">cloud_download</i></a
+          >
+        </p>
       </div>
       <div class="container">
         <div class="row pb-5">
@@ -157,7 +165,7 @@
                   </li>
                 </ul>
               </div>
-              <div class="col s12">
+              <div class="col s12 pb-5">
                 <p class="company-title">Alemhar (Web Developer)</p>
                 <small
                   ><i class="fa fa-clock-o" aria-hidden="true"></i>
@@ -177,6 +185,12 @@
                   </li>
                 </ul>
               </div>
+              <div class="col s12">
+                <object type="image/svg+xml" data="img/svg/SAMPLE PROJECT.svg">
+                  <!-- Your fall back here -->
+                  <img src="img/svg/SAMPLE PROJECT.svg" />
+                </object>
+              </div>
             </div>
           </div>
           <div class="col s12 m5 offset-m1">
@@ -195,6 +209,7 @@
                   alt="javascript-programming"
                 />
                 <p>Javascript</p>
+                <small>Express | Node</small>
               </div>
               <div class="col s4 center-align">
                 <img
@@ -203,6 +218,7 @@
                   alt="java-programming"
                 />
                 <p>Java</p>
+                <small>Spring Boot</small>
               </div>
               <div class="col s4 center-align">
                 <img
@@ -211,12 +227,13 @@
                   alt="php-programming"
                 />
                 <p>PHP</p>
+                <small>MVC | Laravel</small>
               </div>
             </div>
             <!-- end of programming section -->
             <div class="row programming pb-5">
               <div class="col s12">
-                <p class="tech-title pb-5">Front-End</p>
+                <p class="tech-title pb-5 left-align">Front-End</p>
               </div>
               <div class="col s4 center-align">
                 <img
@@ -225,7 +242,7 @@
                   height="3rem"
                   alt="html front-end"
                 />
-                <p>HTML</p>
+                <p>HTML5</p>
               </div>
               <div class="col s4 center-align">
                 <img
@@ -234,6 +251,7 @@
                   alt="css-styling"
                 />
                 <p>CSS3</p>
+                <small>Materialize CSS | Bootstrap</small>
               </div>
               <div class="col s4 center-align">
                 <img
@@ -242,12 +260,51 @@
                   alt="javascript-programming"
                 />
                 <p>Javascript</p>
+                <small>React | Vue | Svelte</small>
               </div>
             </div>
             <!-- end of front-end  -->
+            <div class="row pb-5">
+              <div class="col s12">
+                <p class="tech-title pb-5">Database</p>
+              </div>
+              <div class="col s4 center-align">
+                <img
+                  class="tech-icons responsive-img"
+                  src="./icons/mysql.png"
+                  alt="sql-database"
+                />
+                <p>MySQL</p>
+              </div>
+              <div class="col s4 center-align">
+                <img
+                  class="tech-icons responsive-img"
+                  src="icons/postgres.png"
+                  alt="postgres-db"
+                />
+                <p>Postgres</p>
+              </div>
+              <div class="col s4 center-align">
+                <img
+                  src="icons/mongo-db.png"
+                  alt="mongo-db"
+                  class="tech-icons responsive-img"
+                />
+                <p>Mongo DB</p>
+              </div>
+              <div class="col s4 center-align">
+                <img
+                  src="icons/firebase.png"
+                  alt="google firebase"
+                  class="tech-icons responsive-img"
+                />
+                <p>Firebase</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <!-- end of container -->
     </div>
 
     <!-- Projects -->
@@ -261,13 +318,13 @@
         </p>
         <div class="row pb-5" id="core-projects"></div>
         <p class="name left-align">
-          <span>Javascript Games</span>
-        </p>
-        <div class="row pb-5" id="js-games"></div>
-        <p class="name left-align">
           <span>CSS - Frameworks</span>
         </p>
         <div class="row pb-5" id="random-projects"></div>
+        <p class="name left-align">
+          <span>Javascript Games</span>
+        </p>
+        <div class="row pb-5" id="js-games"></div>
       </div>
     </div>
 

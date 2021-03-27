@@ -238,6 +238,6 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   showProjects(jsProjects, "core-projects");
-  showProjects(jsGames, "js-games");
   showProjects(randomProjects, "random-projects");
+  showProjects(jsGames, "js-games");
 });
