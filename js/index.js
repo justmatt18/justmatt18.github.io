@@ -233,7 +233,6 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
     </div>`;
     }
-    console.log(html);
     document.getElementById(`${elementId}`).innerHTML = html;
   };
 
