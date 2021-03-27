@@ -170,13 +170,13 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       title: "Travel | GrandTour",
       imgUrl: "./img/projects/travel-agency.png",
-      demo: "https://justmatt18.github.io/travel-agency-theme-materialize/",
+      demo: "https://justmatt18.github.io/travel-agency/",
       tech: `<li>HTML</li>
       <li>CSS - Materialize CSS</li>
       <li>Javascript</li>
       <li>
         <a class="red-text text-darken-4"
-          href="https://github.com/justmatt18/travel-agency-theme-materialize"
+          href="https://github.com/justmatt18/travel-agency"
           target="_blank"
           >
           Github repo
