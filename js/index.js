@@ -48,9 +48,9 @@ document.addEventListener("DOMContentLoaded", function () {
                </li>`,
     },
     {
-      title: "Contacts App",
+      title: "Contacts API",
       imgUrl: "./img/projects/contact-book.png",
-      demo: "https://github.com/justmatt18/springboot-mongodb-thymeleaf",
+      demo: "https://spring-contacts.herokuapp.com/",
       tech: `<li>Java - Spring Boot</li>
               <li>Thymeleaf - Server-side Template Engine</li>
                <li>Postman - Testing Controllers</li>
@@ -62,6 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   >
                   Github repo
                 </a>
+                w/ public API
                </li>`,
     },
   ];
@@ -232,11 +233,10 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
     </div>`;
     }
-    console.log(html);
     document.getElementById(`${elementId}`).innerHTML = html;
   };
 
   showProjects(jsProjects, "core-projects");
-  showProjects(jsGames, "js-games");
   showProjects(randomProjects, "random-projects");
+  showProjects(jsGames, "js-games");
 });
