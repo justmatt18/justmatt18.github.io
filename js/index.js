@@ -65,6 +65,23 @@ document.addEventListener("DOMContentLoaded", function () {
                 w/ public API
                </li>`,
     },
+    {
+      title: "Students API",
+      imgUrl: "./img/projects/springboot-jpa.png",
+      demo: "https://github.com/justmatt18/springboot-jpa-student-crud",
+      tech: `<li>Java - Spring Boot</li>
+              <li>Data JPA</li>
+               <li>Postman - Testing Controllers</li>
+               <li>Database - Postgre SQL</li>
+               <li>
+                <a class="red-text text-darken-4"
+                  href="https://github.com/justmatt18/springboot-jpa-student-crud"
+                  target="_blank"
+                  >
+                  Github repo
+                </a>
+               </li>`,
+    },
   ];
 
   const jsGames = [
